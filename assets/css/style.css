@@ -1,15 +1,20 @@
+/* apply styles globally  */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* apply styles to the body */
+
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* apply styles to the header (nav/branding) */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -44,6 +49,7 @@ header nav ul li a {
 }
 
 /* apply styles to footer */
+
 footer {
     background: #fce138;
     width: 100%;
@@ -72,6 +78,7 @@ section {
 }
 
 /* apply styles to hero */
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -122,20 +129,29 @@ section {
     margin-bottom: 15px;
 }
 
-/* Apply styles to What We do section */
+/* Apply styles to all sections */
 
-.intro {
-    text-align: center;
-}
-
-.intro h2 {
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #fce138;
     display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* Apply styles to What We Do section (intro) */
+
+.intro {
+    text-align: center;
 }
 
 .intro p {
@@ -144,7 +160,39 @@ section {
     color: #39a6b2;
     width: 80%;
     margin: 0 auto;
-    
+
 }
+
+/* Apply styles to What You Do section (steps)  */
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
 
 
