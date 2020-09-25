@@ -149,38 +149,7 @@ section {
     margin-bottom: 15px;
 }
 
-/* Apply utilitiy classes to section */
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    display: inline-block;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 /* Apply styles to What We Do section (intro) */
-
-.intro {
-    text-align: center;
-}
 
 .intro p {
     font-size: 20px;
@@ -188,13 +157,12 @@ section {
     color: #39a6b2;
     width: 80%;
     margin: 0 auto;
-
+    text-align: center;
 }
 
 /* Apply styles to What You Do section (steps)  */
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -225,7 +193,6 @@ section {
 /* apply styles to Meet the Trainers section */
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -267,7 +234,6 @@ section {
 
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -302,4 +268,36 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+/* Apply utilitiy classes */
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
