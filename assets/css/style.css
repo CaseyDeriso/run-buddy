@@ -355,7 +355,7 @@ section {
 /* Media Query for Small Desktop Screens and smaller */
 
 @media screen and (max-width: 980px) {
-
+    /* please */
 }
 
 /* Media Query for Tablets and smaller */
@@ -367,5 +367,5 @@ section {
 /* Media Query for Mobile Phones and smaller */
 
 @media screen and (max-width: 575px) {
-    
+
 }
