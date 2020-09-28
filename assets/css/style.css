@@ -255,6 +255,19 @@ section {
     font-size: 17px;
 }
 
+/* Apply styles to Services Section */
+
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid black;
+}
+
 /* Apply styles to the Reach Out section */
 
 .contact {
