@@ -16,6 +16,8 @@ body {
 /* apply styles to the header (nav/branding) */
 
 header {
+    position: sticky;
+    top: 0;
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
@@ -28,6 +30,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -51,6 +54,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 /* apply styles to footer */
@@ -108,15 +112,18 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .hero-form {
     padding: 20px;
     color: #024e76;
-    background-color: #fce138;
+    background-color:rgba(252, 225, 56, 0.8);
     border: solid 3px #024e76;
+    border-radius: 15px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -138,10 +145,12 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 15px;
 }
 
 .form-input {
     border: 1px solid #024e76;
+    border-radius: 15px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -356,6 +365,7 @@ section {
 
 .contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
+    border-radius: 15px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -509,6 +519,7 @@ section {
 @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
+        border-radius: 15px;
     }
 
     .section-title {
